@@ -1,0 +1,183 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.author {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+.author a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.abstract {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2cc;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-bottom: 30px;      
+}
+.abstract h2 {
+    margin-top: auto;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.affiliations {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust gap between logos if needed */
+    margin-top: 20px;
+}
+.affiliation-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+}
+.links {
+    margin-top: 20px;
+}
+.links h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.links li {
+    display: flex;
+    align-items: center;
+}
+.links a {
+    text-decoration: none;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.links a:hover {
+    background-color: #d0d0d0;
+}
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between videos */
+    margin-top: 30px;
+}
+
+.loop-video-container {
+    margin-top: 0px;
+    width: 300px; /* Set the desired container width */
+    height: 260px; /* Set the desired container height */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For positioning the video within the container */
+}
+
+.loop-video-container video {
+    position: absolute;
+    top: 0; /* Adjust as needed to crop the top */
+    left: -50px; /* Adjust to crop from the left */
+    width: 400px; /* Set to be wider than the container to crop from both sides */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+.loop-video-container .video-caption{
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-top: 240px;
+}
+
+.video-container video {
+    width: 500px;
+    height: auto;
+}
+
+.video-container .video-caption{
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-top: 0;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px; /* Adjust gap between logos if needed */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    width: 500px;
+    height: 350px;
+}
+
+.image-container .image {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+}
+
+.image-container .image-caption{
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    /* margin-top: 75%; */
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.section {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    color: #333;
+    margin-top: 20px;
+}
+.citation {
+    margin-top: 30px;
+    border-top: 1px solid #0d0303;
+    padding-top: 20px;
+}
