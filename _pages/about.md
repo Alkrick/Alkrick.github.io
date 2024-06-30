@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Xiaomi Inc.</a>.  Etc.
+subtitle: <a href='#'></a>Motion Control Engineer,  Xiaomi Inc.
 
 profile:
   align: right

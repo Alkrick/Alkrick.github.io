@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Mohamed Al-Khulaqui
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21th May 1997
     - name: Languages
-      value: English, German
+      value: Arabic, English, Chinese, German, Japanese
 
 - title: Education
   type: time_table
