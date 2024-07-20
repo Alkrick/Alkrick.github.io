@@ -19,4 +19,4 @@ social: true # includes social icons at the bottom of the page
 ---
 Hi! I am Mohamed, a passionate robotics engineer. I am driven by my endless curiosity for exploring new topics and advancing robotics. My research interests include motion control, perception and machine learning. 
 
-I completed my master's degree at the Beijing Institute of Technology, advised by Prof. Qing Shi where I worked on motion control and perception for the biomimetic robot rat-like robot SMuRo. I am currently working as a Motion Control Engineer at Xiaomi's Robotics Department, where I am on quadrupedal legged locomotion and loco-manipulation using learning-based methods.
+I completed my master's degree at the Beijing Institute of Technology, advised by Prof. Qing Shi where I worked on motion control and perception for the biomimetic robot rat-like robot SMuRo. I am currently employed as a Motion Control Engineer at Xiaomi's Robotics Department, where I am working on quadrupedal legged locomotion and loco-manipulation using learning-based methods.
