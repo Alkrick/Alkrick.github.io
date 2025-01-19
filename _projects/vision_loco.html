@@ -12,7 +12,7 @@
     
 </head>
 <body>
-    <h1>Quadrupedal Robot Parkour using Deep Reinforcement Learning</h1>
+    <h1>Vision-Based Quadrupedal Locomotion</h1>
 
     <p class="author"> 
         <a href="https://alkrick.github.io">Mohamed Al-Khulaqui</a>   
@@ -25,10 +25,11 @@
     <div class="abstract">
         <h2>Intro</h2>
         <p>
-            A quadrupedal robot RL-based parkour pipline for diverse terrain traversal based on Extreme Parkour for legged Robots.
-            A Teacher-Student training framework is employed to train a teacher model with access to privileged information, 
-            which is then distilled into a student model that is deployable on the robot. This model was deployed on Xiaomi's Cyberdog 2,
-            which managed to achieve climbing over obstacles 1.6 of it's base height. 
+            An RL-Framework is developed to enable legged robots to navigate unstructured terrain 
+            without the need for external perception. In order to compensate for the lack of external
+            perception an Implict-Explict Estimator module is proposed; The IE Estimator provides explict 
+            body velocity estimation for the robot as well as implict state encoding of the robot and terrain.
+            The policy is trained using PPO.
         </p>
     </div>
 
